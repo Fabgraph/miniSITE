@@ -10,36 +10,58 @@
     </head>
     <body>
         <!--début de la div principale-->
-        <div>
+        <div id="wrapper">
 
             <!--en-tête de la page ou d'une division ou d'une section-->
             <header class="fond_vert">
                 <h1>En-tête de la page ou d'une division ou d'une section</h1>
                 <p>Avec un peu de texte</p>
                 <p>Avec un peu de texte dans un autre paragraphe</p>
-            </header>
-            
 
+            </header>
+
+        <!--pour une division sur le côté de la page-->
+        <aside class="fond_gris">
+                <h2>Bienvenu</h2>
             <!--la navigation de la page-->
             <nav class="fond_rouge">
                 <h2>Navigation</h2>
                     <ul>
-                        <li>Menu 01</li>
-                        <li>Menu 02</li>
-                        <li>Menu 03</li>
-                        <li>Menu 04</li>
+                        <li>Menu # 01</li>
+                        <li>Menu # 02</li>
+                        <li>Menu # 03</li>
+                        <li>Menu # 04</li>
+                        <li>Menu # 05</li>
+                        <li>Menu # 06</li>
+                        <li>Menu # 07</li>
+                        <li>Menu # 08</li>
                     </ul>
             </nav>
-            <!--du contenu textuel-->
-            <article class="fond_orange">Contenu textuel</article>
+        </aside>
+            
+        <div id="main">
+        <!--contenu principal-->
+            
+            <!--du contenu textuel, un article avec son h2-->
+            <article class="fond_orange">
+                <h2>Titre d'un article</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum vero veritatis dignissimos corporis repudiandae excepturi est nulla dicta quisquam quo sint, inventore tempora harum necessitatibus aperiam et saepe magni iste.
+                </p>
+                <p class="fond_gris">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat sequi voluptas obcaecati dicta doloremque temporibus nulla tempora, id neque et hic unde vel enim ullam fuga eos magnam voluptate commodi.</p>
+                <!-- je joue avec les class -->
+                <p class="fond_gris">Je suis le <span class="fond_rouge"> plus fort en code !</span></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora saepe, animi fugit quis quod sapiente similique commodi temporibus aut maxime. Quaerat dicta eaque aperiam veniam, eos architecto impedit recusandae necessitatibus.</p>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora saepe, animi fugit quis quod sapiente similique commodi temporibus aut maxime. Quaerat dicta eaque aperiam veniam, eos architecto impedit recusandae necessitatibus.</p> -->
+                
+            </article>
+        </div><!-- fermeture de la div mean -->
 
-            <!--pour une division sur le côté de la page-->
-            <aside class="fond_gris">Le côté de la page</aside>
-
+        <div class="clear"></div>
+            
             <!--le pied de page-->
             <footer class="fond_bleu">Pied de page</footer>
 
 
-        </div>
+        </div><!--fermeture première div wrapper-->
     </body>
 </html>

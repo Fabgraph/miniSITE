@@ -3,7 +3,7 @@
 
 /* ma première feuille de style externe */
 
-/* des styles simples pour visualiser les div */
+/* des styles simples pour visualiser les div pour des fonds de couleur */
 
 /* classes : */
 .fond_orange {
@@ -23,7 +23,47 @@
 }
 /* les styles de la page */
 
-body{
+body {
+    margin: auto; /* margin c'est la marge extérieur d'un élément */
     background-color: bisque;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* l'emballage de toute la page */
+#wrapper {
+    width: 998px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid white;
+}
+/* le haut de page */
+header {
+    height: 236px; 
+    /* hauteur de l'élément */
+    border: 2px solid white;
+}
+
+/* le côté de la page */
+aside {
+     /* largeur de l'élément */
+    width: 280px;
+    float: left;
+   
+}
+/* le contenu principale */
+#main {
+    width: 700px;
+    float: right;
+}
+/* la class pour tout remettre dans le flux normal */
+.clear {
+    clear: both;
+}
+    
+
+
+/* le pied de page */
+footer {
+    height: 200px;
+    border: 20px solid peru;
 }
