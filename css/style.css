@@ -38,7 +38,8 @@ body {
 }
 /* le haut de page */
 header {
-    height: 236px; 
+    background: url(../img/panorama03.jpg) center top no-repeat;
+    height: 480px; 
     /* hauteur de l'élément */
     border: 2px solid white;
 }
@@ -46,14 +47,16 @@ header {
 /* le côté de la page */
 aside {
      /* largeur de l'élément */
-    width: 280px;
+    width: 278px;
     float: left;
+    padding: 10px;
    
 }
 /* le contenu principale */
 #main {
-    width: 700px;
+    width: 680px;
     float: right;
+    padding: 10px;
 }
 /* la class pour tout remettre dans le flux normal */
 .clear {
