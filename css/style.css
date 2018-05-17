@@ -21,6 +21,7 @@
 .fond_gris {
     background: lightgrey;
 }
+
 /* les styles de la page */
 
 body {
@@ -106,4 +107,28 @@ input, textarea, select {/* pour styler plusieurs éléments et leur donner des 
 }
 select {
     margin-top: 5px;
+}
+
+/* le tableau */
+table { 
+    border-collapse: collapse;/* fusionne les bordures stylées ci-après */
+}
+table, th, td {
+    border: 1px solid olive;
+}
+th, td {
+    padding: 10px;
+}
+tr:hover {/* une pseudo-class :hover au passage de la souris */
+    background-color: olive;
+}
+caption, th, tfoot {
+    text-align: left;
+    background: red;
+    color: whitesmoke;
+    padding: 10px;
+}
+caption {
+    caption-side: top;
+    text-transform: uppercase;
 }

@@ -15,13 +15,12 @@
             <!--en-tête de la page ou d'une division ou d'une section-->
             <header>
                 <h1><a href="index.html">Le minisite de Fabrice</a></h1>
-            
-
             </header>
 
         <!--pour une division sur le côté de la page-->
         <aside class="fond_gris">
                 <h1>Bienvenue</h1>
+                
             <!--la navigation de la page-->
             <nav class="fond_rouge">
                 <h2>Navigation</h2>
@@ -38,20 +37,107 @@
         </aside>
             
         <div id="main" class="fond_orange">
-        <!--contenu principal-->
-            
-            <!--du contenu textuel, un article avec son h2-->
-            <article>
-                <h2>Titre d'un article</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum vero veritatis dignissimos corporis repudiandae excepturi est nulla dicta quisquam quo sint, inventore tempora harum necessitatibus aperiam et saepe magni iste.
-                </p>
-                <p class="fond_gris">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat sequi voluptas obcaecati dicta doloremque temporibus nulla tempora, id neque et hic unde vel enim ullam fuga eos magnam voluptate commodi.</p>
-                <!-- je joue avec les class -->
-                <p class="fond_gris">Je suis le <span class="fond_rouge"> plus fort en code !</span></p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora saepe, animi fugit quis quod sapiente similique commodi temporibus aut maxime. Quaerat dicta eaque aperiam veniam, eos architecto impedit recusandae necessitatibus.</p>
-                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora saepe, animi fugit quis quod sapiente similique commodi temporibus aut maxime. Quaerat dicta eaque aperiam veniam, eos architecto impedit recusandae necessitatibus.</p> -->
-                
-            </article>
+            <h2>Mon premier tableau</h2>
+                <table>
+                    <caption>La liste des salariés de Pantin</caption>
+                    <thead><!-- thead une rangée en entête de colonne -->
+                        <tr><!-- tr table row une rangée de tableau -->
+                            <th>Noms</th><!-- th table head une cellule d'en-tête de colonne -->
+                            <th>Prénoms</th>
+                            <th>Courriel</th>
+                            <th>Téléphone</th>
+                        </tr>
+                    </thead>
+
+                    <tfoot>
+                        <tr>
+                            <th>Noms</th>
+                            <th>Prénoms</th>
+                            <th>Courriel</th>
+                            <th>Téléphone</th>
+                        </tr>
+                    </tfoot>
+
+                    <tbody><!-- tbody le corps du tableau -->
+                        <tr class="fond_gris">
+                            <td>Khan</td><!-- td table data une cellule de tableau -->
+                            <td>Akbar</td>
+                            <td>akbar.khan@lepoles.com</td>
+                            <td>07 53 17 58 48</td>
+                        </tr>
+                        <tr>
+                            <td>Baptiste</td>
+                            <td>Andrée</td>
+                            <td>andree.baptiste@lepoles.com</td>
+                            <td>06 37 05 53 47</td>
+                        </tr>
+                        <tr class="fond_gris">
+                            <td>Santo</td>
+                            <td>Damien</td>
+                            <td>damien.santo@lepoles.com</td>
+                            <td>06 18 12 25 64</td>
+                        </tr>
+                        <tr>
+                                <td>Bon</td>
+                                <td>Jean-Marc</td>
+                                <td>jean-marc.bon@lepoles.com</td>
+                                <td>06 82 29 64 44</td>
+                        </tr>
+                        <tr class="fond_gris">
+                                <td>Aslan</td>
+                                <td>Kilic</td>
+                                <td>kilic.aslan@lepoles.com</td>
+                                <td></td>
+                        </tr>
+                        <tr>
+                                <td>Poujaud-Melot</td>
+                                <td>Lesly</td>
+                                <td>lesly.poujaud-melot@lepoles.com</td>
+                                <td>06 45 39 92 92</td>
+                        </tr>
+                        <tr class="fond_gris">
+                                <td>Louchnikova</td>
+                                <td>Marina</td>
+                                <td>marina.louchnikova@lepoles.com</td>
+                                <td>06 15 36 03 11</td>
+                        </tr>
+                        <tr>
+                                <td>Yessad</td>
+                                <td>Mohamed</td>
+                                <td>mohamed.yessad@lepoles.com</td>
+                                <td>06 67 80 55 98</td>
+                        </tr>
+                        <tr class="fond_gris">
+                                <td>Mbaye</td>
+                                <td>Papaoumar</td>
+                                <td>papaoumar.mbaye@lepoles.com</td>
+                                <td>06 52 31 75 40</td>
+                        </tr>
+                        <tr>
+                                <td>Belkacem</td>
+                                <td>Setti</td>
+                                <td>setti.belkacem@lepoles.com</td>
+                                <td>07 62 44 53 74</td>
+                        </tr>
+                        <tr class="fond_gris">
+                                <td>Benkherouf</td>
+                                <td>Tarek</td>
+                                <td>tarek.benkherouf@lepoles.com</td>
+                                <td>06 28 54 97 96</td>
+                        </tr>
+                        <tr>
+                                <td>Isola</td>
+                                <td>Patrick</td>
+                                <td>patrick.isola@lepoles.com</td>
+                                <td>01 48 46 59 48</td>
+                        </tr>
+                    </tbody>
+
+                   
+
+
+
+                </table>
         </div><!-- fermeture de la div mean -->
 
         <div class="clear"></div>
