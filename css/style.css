@@ -140,6 +140,6 @@ caption {
 }
 .cartouche {/* un essai de bordure avec des coins arrondis */
     border: 1px solid orange;
-    border-radius: 100px;/* fait des bords arrondis */
+    border-radius: 50px;/* fait des bords arrondis */
     padding: 25px;
 }
