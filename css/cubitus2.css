@@ -39,6 +39,10 @@ body {
 .c1 {
     border-radius: 5% 10% 20% 40%;
 }
+.c1:hover {
+    background-color: aquamarine;
+
+}
 .c2 {
     border-radius: 40% 0% 40% 0%;
 }

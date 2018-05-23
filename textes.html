@@ -7,6 +7,26 @@
         <title>miniSITE : des textes</title>
         <!-- la feuille de style externe avec une balise link -->
         <link href="css/style.css" rel="stylesheet">
+        <style>
+
+            /* les pseudo class :first-child */
+            li:first-child {
+                background: lightblue;
+            }
+            article li:first-child {
+                background: purple;
+            }
+            article li:nth-child(4) {
+                background: olive;
+                color: white;
+            }
+            #nchild li:nth-child(2n) {
+                background: #000;
+                color:#fff;
+            }
+
+
+        </style>
     </head>
     <body>
         <!--début de la div principale-->
@@ -63,6 +83,43 @@
                         Quel avantage ils ont que n'ait pas un autre homme. </p>
                 <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora saepe, animi fugit quis quod sapiente similique commodi temporibus aut maxime. Quaerat dicta eaque aperiam veniam, eos architecto impedit recusandae necessitatibus.</p> -->
             </article>
+            <h3>Une astuce avec un hover</h3>
+            <div id="survol">
+                Survolez cette ligne pour me faire apparaître
+                <p>Coucou je suis là !</p>
+            </div>
+            <article>
+                <h1>Une liste de choses à faire</h1>
+                    <ul>
+                        <li>Faire les courses</li>
+                        <li>Lire mes mails</li>
+                        <li>Prendre un café avec un ami</li>
+                        <li>Faire le ménage</li>
+                        <li>Faire à manger</li>
+                        <li>Faire la vaisselle</li>
+                    </ul>
+                <h1>Ce que je fais dans l'ordre quand j'arrive au boulot</h1>
+                    <ol>
+                        <li>Dire bonjour aux collègues</li>
+                        <li>Mettre mon repas au réfrigirateur</li>
+                        <li>Prendre un café</li>
+                        <li>Fumer une cigarette</li>
+                        <li>Allumer mon PC</li>
+                        <li>Me connecter à ma boîte mail</li>
+
+                    </ol>
+            </article>
+            <article id="nchild">
+                    <h1>Une liste de choses à ne pas faire</h1>
+                        <ul>
+                            <li>Fumer</li>
+                            <li>Boire</li>
+                            <li>Prendre des produits trops gras</li>
+                            <li>Regarder la télé</li>
+                            <li>Faire la fête</li>
+                            <li>Du bruit</li>
+                        </ul>
+                </article>
         </div><!-- fermeture de la div mean -->
 
         <div class="clear"></div>
