@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>Fabrice zoning</title>
+        <style>
+            header {
+                width: 700px;
+                height: 100px;
+                background: rgb(124, 84, 3);
+                text-align: center;
+            }
+            nav {
+                width: 700px;
+                background: green;
+                text-align: center;
+            }
+           section div div {
+                width: 160px;
+                height: 132px;
+                border: 1px solid #fff;
+                float: left;
+                margin: 0.2px;
+            }
+           section div {
+                width: 650px;
+                height: 650px;
+            }
+
+            #conteneur { 
+                width: 700px;
+                height: 661px;
+                margin: 0 auto;
+                background: paleturquoise;
+                color: white;
+                margin: 0 auto;
+                border: 2px solid white;
+            }
+            #contenu {
+                width: 650px;
+                height: 550px;
+                margin: 0 auto;
+                border: 2px solid #fff;
+            } 
+            .a {
+                border: 2px;
+                background: pink;
+            }
+            .b {
+                border: 2px;
+                background: lightseagreen;
+            }
+            .c {
+                border: 2px;
+                background: blue;
+            }
+            .d {
+                border: 2px;
+                background: blueviolet;
+            }
+            .a, .b, .c, .d {
+                width: 325px;
+                height: 270px;
+                float: left;
+                text-align: center;
+            }
+            .clear {
+                clear: both;
+            }
+            footer {
+                background-color: #4a1a2c;
+                height: 100px;
+                text-align: center;
+            }
+        </style>
+
+    </head>
+    <body>
+        
+        <div id="conteneur">
+                <header>zone du haut</header>
+                <nav>menu</nav>
+            <div id="contenu">
+                <section>
+                    <div class="a">
+                            <div>1</div>
+                            <div>2</div>
+                            <div class="clear">3</div>
+                            <div>4</div>
+                    </div>
+                    
+                    
+                    <div class="b">
+                            <div>5</div>
+                            <div>6</div>
+                            <div class="clear">7</div>
+                            <div>8</div>
+                    </div>
+                    <!-- <div class="clear"></div> -->
+                    <div class="c">
+                            <div>9</div>
+                            <div>10</div>
+                            <div class="clear">11</div>
+                            <div>12</div>
+                    </div>
+                    <div class="d">
+                            <div>13</div>
+                            <div>14</div>
+                            <div class="clear">15</div>
+                            <div>16</div>
+                    </div>
+                </section>    
+            </div>
+            <footer>Zone du bas</footer>
+        </div>
+        
+
+    </body>
