@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+#conteneur{
+    width: 1000px;
+    background: aquamarine;
+    color: blue;
+    margin: 0 auto;
+}
+#conteneur .div_un {
+    background: url('..img/camionnette02.jpg');
+header {
+    height: 200px;
+    background: rosybrown;
+}
+.div_un, .div_deux, .div_trois, .div_quatre {
+    float: left;
+    width: 496px;
+    height: 496px;
+    border: 2px solid #000;
+}
+.div_un {
+    /* background: rgb(230, 28, 28); */
+} 
+.div_deux {
+    background: green;
+}
+.div_trois {
+    background: blue;
+}
+.div_quatre {
+    background: yellow;
+}
+.un, .deux, .trois, .quatre {
+    float: left;
+    width: 244px;
+    height: 244px;
+    border: 2px solid #000;
+}
+.six {
+    float: left;
+    width: 494px;
+    height: 244px;
+    border: 2px solid #000;
+}
+.a, .b, .c, .d {
+    float: left;
+    width: 118px;
+    height: 118px;
+    border: 2px solid #000;
+}
+footer {
+    border: 2px solid #000;
+    background: rgb(230, 140, 6);
+}
+footer p {
+    text-align: justify;
+}
+.clear {
+    clear: both;
+}
