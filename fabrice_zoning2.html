@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="css/fabrice_zoning2.css" rel="stylesheet">
     <title>Fabrice zoning 2</title>
+</head>
     <style>
+    
         #conteneur{
             width: 1000px;
             background: aquamarine;
@@ -16,16 +17,23 @@
         header {
             height: 200px;
             background: rosybrown;
+            border: 1 px solid #5555;
+            text-align: center;
+        }
+        nav {
+            height: 50px;
+            background: cornflowerblue;
+            border: 1px solid #c565;
+            text-align: center;
         }
         .div_un, .div_deux, .div_trois, .div_quatre {
             float: left;
             width: 496px;
             height: 496px;
-            border: 2px solid #000;
+            border: 1px solid #d4d4;
         }
         .div_un {
-            /* background: rgb(230, 28, 28); */
-            background-image: url(../img/camionnette02.jpg);
+            background: red;
         } 
         .div_deux {
             background: green;
@@ -40,29 +48,68 @@
             float: left;
             width: 244px;
             height: 244px;
-            border: 2px solid #000;
+            border: 2px solid #d4d4;
         }
         .six {
             float: left;
-            width: 494px;
+            width: 492px;
             height: 244px;
-            border: 2px solid #000;
+            border: 2px solid #d4d4;
+            background: url('img/panorama03.jpg');
+            background-size: cover;
+        }
+        .un_bis {
+            float: left;
+            width: 244px;
+            height: 244px;
+            border: 2px solid #d4d4;
+            background: url('img/camionnette02.jpg');
+            background-size: cover;
         }
         .a, .b, .c, .d {
             float: left;
             width: 118px;
             height: 118px;
-            border: 2px solid #000;
+            border: 2px solid #d4d4;
+        }
+        .a {
+            background: url('img/mignon1.jpg');
+            background-size: cover;
+        }
+        .b {
+            background: url('img/mignon2.jpg');
+            background-size: cover; 
+        }
+        .a_bis {
+            float: left;
+            width: 244px;
+            height: 244px;
+            border: 2px solid #d4d4;
+            background: url('img/siamois.jpg');
+            background-size: cover;
+        }
+        .b_bis {
+            float: left;
+            width: 244px;
+            height: 244px;
+            border: 2px solid #d4d4;
+            background: url('img/domoison_san_gimignano.jpg');
+            background-size: cover;
         }
         footer {
-            border: 2px solid #000;
+            height: 200px;
+            border: 2px solid #d4d4;
             background: rgb(230, 140, 6);
         }
         footer p {
-            text-align: justify;
+            text-align: center;
         }
         .clear {
             clear: both;
+        }
+        .image {
+            background: url('img/chats.jpg') no-repeat center;
+            background-size: cover;/* permet de couvrir tous l'espace de l'élément parent */
         }
     </style>
 </head>
@@ -73,49 +120,49 @@
         </header>
         <nav>Nav</nav>
         <section>
-            <div class="div_un"></div>
+            <div class="div_un image"></div>
             <div class="div_deux">
-                <div class="un">A</div>
-                <div class="deux">A</div>
-                <div class="trois">A</div>
-                <div class="quatre">A</div>
+                <div class="un_bis"></div>
+                <div class="un_bis"></div>
+                <div class="un_bis"></div>
+                <div class="un_bis"></div>
             </div>
             <div class="div_trois">
                 <div class="un">
                         <div class="a">B</div>
-                        <div class="a">B</div>
-                        <div class="a">B</div>
+                        <div class="b">B</div>
+                        <div class="b">B</div>
                         <div class="a">B</div>
                 </div>
                 <div class="deux">
                         <div class="b">B</div>
-                        <div class="b">B</div>
-                        <div class="b">B</div>
+                        <div class="a">B</div>
+                        <div class="a">B</div>
                         <div class="b">B</div>
                 </div>
                 <div class="trois">
-                        <div class="c">B</div>
-                        <div class="c">B</div>
-                        <div class="c">B</div>
-                        <div class="c">B</div>
+                        <div class="a">B</div>
+                        <div class="b">B</div>
+                        <div class="b">B</div>
+                        <div class="a">B</div>
                 </div>
                 <div class="quatre">
-                        <div class="d">B</div>
-                        <div class="d">B</div>
-                        <div class="d">B</div>
-                        <div class="d">B</div>
+                        <div class="b">B</div>
+                        <div class="a">B</div>
+                        <div class="a">B</div>
+                        <div class="b">B</div>
                 </div>
             </div>
             <div class="div_quatre">
-                <div class="un">A</div>
-                <div class="deux">A</div>
+                <div class="a_bis">A</div>
+                <div class="b_bis">A</div>
                 <div class="six">A</div>
                 <!-- <div class="quatre">A</div> -->
             </div>
             <div class="clear"></div>
         </section>
         <footer>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, porro ad explicabo ab ipsum sit culpa! Corrupti consequatur eaque consequuntur cum modi, saepe numquam totam excepturi iste, ducimus, laboriosam velit!</p>
+            <p>Bas de page</p>
         </footer>
     </div><!-- fin de div conteneur -->
 </body>
