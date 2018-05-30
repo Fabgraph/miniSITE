@@ -5,9 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie-edge">
         <title>miniSITE : des photos</title>
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
         <!-- la feuille de style externe avec une balise link -->
         <link href="css/style.css" rel="stylesheet">
     </head>
+    
     <body>
         <!--début de la div principale-->
         <div id="wrapper">
@@ -45,6 +48,10 @@
         </aside>
             
         <div id="main" class="fond_gris">
+            <p class="text_droite">
+                <a id="haut_de_page"></a>
+                <a href="#bas_de_page" title="le bas de la page"><i class="fas fa-arrow-alt-circle-down"></i></a>
+            </p>
         <!--contenu principal-->
             
             <!--du contenu textuel, un article avec son h2-->
@@ -53,27 +60,38 @@
                 <h3 class="fond_bleu">Photo travaillée sur GIMP</h3>
                 <p>Nous avons retouché cette image avec les calques niveaux.
                 </p>
-                <img src="img/camionnette02.jpg">
+                <img src="img/camionnette02.jpg" alt="Une camionnette">
                 <h3 class="fond_bleu">Photo avec Marie-Louise</h3>
                 <p>Nous avons remise droite et créé une Marie-Louise.</p>
-                <img src="img/chats.jpg">
+                <img src="img/chats.jpg" alt="Un chat">
                 <h3 class="fond_bleu">Exercice lors de test</h3>
                 <!-- je joue avec les class -->
                 <p>Nous avons supprimé des éléments et fait une Marie-Louise <span class="fond_rouge"> premier test.</span></p>
-                <img src="img/domoison_san_gimignano.jpg">
+                <img src="img/domoison_san_gimignano.jpg" alt="Un panorama">
                 <h3 class="fond_bleu">Exemple fait moi-même</h3>
                 <p>J'ai fait cette Marie-Louise avec l'outil motif dans GIMP</p>
-                <img src="img/venise03.jpg">
-
+                <img src="img/venise03.jpg" alt="venise">
+                <h3 class="fond_bleu">Retouche de tâches</h3>
+                <p>Grâce à GIMP nous avons effacé des pétouilles</p>
+                <img src="img/ruelle01.jpg" alt="ruelle">
+                <h3>Encore des retouches</h3>
+                <p>Nous avons effacé un ensemble de pétouilles</p>
+                <img src="img/portraitjeunehomme.jpg" alt="Jeune homme">
+                <h3>Photo prise sur internet</h3>
+                <img src="https://www.montagne-vacances.com/images/lac-de-montagne.jpg" alt="Montagne" width="860" height="281">
             
                 
             </article>
+        <p class="text_droite">
+            <a id="bas_de_page"></a><!--une ancre en bas de page nommée avec id-->
+            <a href="#haut_de_page" title="le haut de la page"><i class="fas fa-arrow-alt-circle-up"></i></a><!--le lien "hypertext" avec son hyper référence en href-->
+        </p>
         </div><!-- fermeture de la div mean -->
-
+        
         <div class="clear"></div>
-            
+
             <!--le pied de page-->
-            <footer class="fond_bleu">Pied de page</footer>
+        <footer class="fond_bleu">Pied de page</footer>
 
 
         </div><!--fermeture première div wrapper-->

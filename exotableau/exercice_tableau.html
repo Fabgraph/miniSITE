@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercice tableau</title>
+    <style>
+    table {
+        border-collapse: collapse;
+    }
+    .bordures td {
+        border-bottom: 1px solid #333;
+        border-left: 1px solid #333;
+    }
+    .bordures td:first-child {
+        border-top: 1px solid #333;
+        border-right: 1px solid #333;
+
+    }
+    .bordures td:last-child {
+        border-top: 1px solid #333;
+        border-right: 1px solid #333;
+
+    }
+    
+    </style>
+</head>
+<body>
+    <table>
+        <h1>Un tableau avec des row fusionnées</h1>
+        <caption>Lorem</caption>
+            <tr class="bordures">
+                <td>Nom</td>
+                <td>André Bourvil</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Téléphone</td>
+                <td>Passy 78 54</td>
+            </tr>
+            <tr class="bordures">
+                <td>Camembert 78 55</td>
+            </tr>
+    </table>
+    
+</body>
+</html>
